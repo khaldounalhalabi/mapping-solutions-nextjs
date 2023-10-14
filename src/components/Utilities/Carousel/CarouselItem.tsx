@@ -4,7 +4,7 @@ import './carousel.css';
 
 const CarouselItem = ({children}: { children: any }) => {
     return (
-        <div className="embla__container">
+        <div className="embla__slide cursor-grab">
             {children}
         </div>
     );

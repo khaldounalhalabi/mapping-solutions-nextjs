@@ -9,7 +9,7 @@ const ProductCard = ({image, name, description}: { image: string, name: string, 
             <div className={`flex rounded-md justify-center items-center p-3 drop-shadow-md h-1/2`}>
                 <img src={image} alt={`product`} className={`w-full h-full`}/>
             </div>
-            <div className={`shadow-xl p-5`}>
+            <div className={`shadow-xl p-5 h-1/2`}>
                 <h3 className={`font-bold text-lg`}>{name}</h3>
                 <ColoredLine className={`mr-10 bg-gray-100`}/>
                 <p className={`text-justify`}>

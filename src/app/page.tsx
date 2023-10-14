@@ -4,6 +4,12 @@ import AboutUsWidget from "@/components/AboutUsWidget/AboutUsWidget";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import ColoredLine from "@/components/Utilities/ColoredLine";
 import ServicesWidget from "@/components/ServicesWidget/ServicesWidget";
+import Link from "next/link";
+import {AiOutlineArrowRight} from "@react-icons/all-files/ai/AiOutlineArrowRight";
+import {BiRightArrow} from "@react-icons/all-files/bi/BiRightArrow";
+import {BiRightArrowAlt} from "@react-icons/all-files/bi/BiRightArrowAlt";
+import PartnersWidget from "@/components/PartnersWidget/PartnersWidget";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
     return (
@@ -29,7 +35,26 @@ export default function Home() {
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation`}/>
             </div>
 
-            <ServicesWidget/>
+            <div className="flex justify-end items-center my-5 mx-16">
+                <Link href="#"
+                      className="font-bold flex justify-between items-center transition-transform transform scale-100 hover:scale-105 hover:underline">
+                    View all products
+                    <BiRightArrowAlt
+                        className="mx-3 text-2xl"/>
+                </Link>
+            </div>
+
+            <div className={`h-full w-full`}>
+                <ServicesWidget/>
+            </div>
+
+            <div className={`my-5`}>
+                <PartnersWidget/>
+            </div>
+
+            <div className={`mt-10`}>
+                <Footer/>
+            </div>
         </>
     )
 }
