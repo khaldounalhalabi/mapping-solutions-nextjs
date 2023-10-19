@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer bg-gray-100 w-full h-full py-5 px-10">
             <div className="container grid grid-cols-3 gap-40">
                 <div>
-                    <Image width={500} height={500} src={`/images/logo.png`}/>
+                    <Image width={500} height={500} src={`/images/logo.png`} alt={''}/>
                 </div>
                 <nav className={`flex w-full`}>
                     <ul className={`mx-5`}>

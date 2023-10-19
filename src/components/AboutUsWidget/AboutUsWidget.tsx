@@ -11,7 +11,7 @@ const AboutUsWidget = () => {
             <div className={`col-span-9 flex justify-center items-center`}>
                 <p className={`text-xl`}>
                     Who are we? Specialised in Thermal , Optical hyperspectral cameras, Spectroradiometers, Lidar and
-                    airborne survey service provider and GIS solutions. our partners' hadware: Telops thermal HyperCam,
+                    airborne survey service provider and GIS solutions. our partners&apos; hadware: Telops thermal HyperCam,
                     HySpex Hyperspectral imaging, Hyperspectral, airborne survey, Spectral Evolution spectroradiometers,
                     Ocean Optics spectrometers, handheld raman.
                 </p>
