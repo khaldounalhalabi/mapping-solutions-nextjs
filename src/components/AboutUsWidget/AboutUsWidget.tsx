@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import React from 'react';
 
 const AboutUsWidget = () => {
     return (
         <div className="p-10 shadow-2xl border border-gray-100 grid grid-cols-12 mx-20 my-5">
             <div className={`col-span-3`}>
-                <img src={`/images/logo.png`} alt={`logo`}/>
+                <Image width={500} height={500} src={`/images/logo.png`} alt={`logo`}/>
             </div>
 
             <div className={`col-span-9 flex justify-center items-center`}>

@@ -2,12 +2,13 @@
 import React from 'react';
 import Button from "@/components/Utilities/Button";
 import ColoredLine from "@/components/Utilities/ColoredLine";
+import Image from 'next/image';
 
 const ProductCard = ({image, name, description}: { image: string, name: string, description: string }) => {
     return (
         <div className={`card-scaled-up`}>
             <div className={`flex rounded-md justify-center items-center p-3 drop-shadow-md h-1/2`}>
-                <img src={image} alt={`product`} className={`w-full h-full`}/>
+                <Image width={500} height={500} src={image} alt={`product`} className={`w-full h-full`}/>
             </div>
             <div className={`shadow-xl p-5 h-1/2`}>
                 <h3 className={`font-bold text-lg`}>{name}</h3>

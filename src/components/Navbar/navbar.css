@@ -1,5 +1,5 @@
 .nav-item{
-    @apply text-lg m-1 p-2;
+    @apply text-sm m-1 p-2;
 }
 
 .nav-item:hover{

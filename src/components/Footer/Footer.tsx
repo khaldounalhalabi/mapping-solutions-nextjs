@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Footer = () => {
@@ -5,7 +6,7 @@ const Footer = () => {
         <footer className="footer bg-gray-100 w-full h-full py-5 px-10">
             <div className="container grid grid-cols-3 gap-40">
                 <div>
-                    <img src={`/images/logo.png`}/>
+                    <Image width={500} height={500} src={`/images/logo.png`}/>
                 </div>
                 <nav className={`flex w-full`}>
                     <ul className={`mx-5`}>

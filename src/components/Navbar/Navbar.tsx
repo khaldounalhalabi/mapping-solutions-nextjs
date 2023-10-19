@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className={`bg-gray-50 py-2 p-0 m-0`}>
             <nav className={`mx-3 flex justify-between items-center`}>
                 <div>
-                    <Image className={`mx-5 px-5`} src={`/images/logo.png`} alt={`logo`} width={180} height={50}/>
+                    <Image width={500} height={500} className={`mx-5 px-5`} src={`/images/logo.png`} alt={`logo`} width={180} height={50}/>
                 </div>
                 <BiMenu className={`text-4xl cursor-pointer lg:hidden`}/>
                 <div className={`md:hidden lg:block`}>
