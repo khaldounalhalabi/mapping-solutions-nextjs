@@ -29,13 +29,13 @@ const PartnersWidget = () => {
                     </div>
                 </Link>
 
-                <Link href={`#`} className={`slide-top h-full w-full`}>
+                {/* <Link href={`#`} className={`slide-top h-full w-full`}>
                     <div className={`card py-10 px-5 rounded-lg h-full shadow-2xl`}>
                         <div className={`w-full h-full`}>
                             <Image width={500} height={500} src={`/images/Spectral Evolution.png`} alt={'partner'} className={`h-full`}/>
                         </div>
                     </div>
-                </Link>
+                </Link> */}
 
                 <Link href={`#`} className={`slide-top h-full w-full`}>
                     <div className={`card py-10 px-5 rounded-lg h-full shadow-2xl`}>
